@@ -8,3 +8,6 @@ Olá, meu nome é **Camila** e eu vou mostrar um pouco do desenvolvimento web qu
 
 O arquivo foi desenvolvido com as linguagens **JavaScript, HTML e CSS.** Por mim e pela minha dupla, Gracielle do Nascimento.
 
+
+## Finalidade da aplicação
+O objetivo do nosso sistema é **indicar** a quantidade necessária para alimentar o gato de estimação, baseando-se na idade e na altura. Para descontração, adicionamos um carrossel em que fica fixado as imagens da maioria das raças de gatos. 
