@@ -10,5 +10,5 @@ O arquivo foi desenvolvido com as linguagens **JavaScript, HTML e CSS.** Por mim
 
 ### Página Inicial
 
-<img scr="projeto1.png">
+<img scr="../imagens/projeto1.png">
 <img scr="projeto2.png">
