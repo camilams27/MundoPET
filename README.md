@@ -13,6 +13,6 @@ O arquivo foi desenvolvido com as linguagens **JavaScript, HTML e CSS.** Por mim
 O objetivo do nosso sistema é **indicar** a quantidade necessária para alimentar o gato de estimação, baseando-se na idade e no peso do animal. Para descontração, adicionamos um carrossel em que fica fixado as imagens da maioria das raças de gatos. 
 
 ## Imagens
-<img scr="../img/especial/projeto1.png">
+<img scr="../img/especial/projeto1.jpg">
 
 <img scr="../img/especial/projeto2.png">
