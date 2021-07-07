@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Boas-vindas ao Mundo PET 🐱
 
-You can use the [editor on GitHub](https://github.com/camilams27/MundoPET/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Olá, meu nome é **Camila** e eu vou mostrar um pouco do desenvolvimento web que criei na disciplina de *Desenvolvimento de aplicações WEB* gerenciada pelo professor **Rodrigo Lira.**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## File
 
-```markdown
-Syntax highlighted code block
+O arquivo foi desenvolvido com as linguagens **JavaScript, HTML e CSS.** Por mim e pela minha dupla, Gracielle do Nascimento.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/camilams27/MundoPET/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Finalidade da aplicação
+O objetivo do nosso sistema é **indicar** a quantidade necessária para alimentar o gato de estimação, baseando-se na idade e na altura. Para descontração, adicionamos um carrossel em que fica fixado as imagens da maioria das raças de gatos. 
