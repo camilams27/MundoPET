@@ -10,5 +10,5 @@ O arquivo foi desenvolvido com as linguagens **JavaScript, HTML e CSS.** Por mim
 
 
 ## Finalidade da aplicação
-O objetivo do nosso sistema é **indicar** a quantidade necessária para alimentar o gato de estimação, baseando-se na idade e no peso do animal. Para descontração, adicionamos um carrossel em que fica fixado as imagens da maioria das raças de gatos. 
+O objetivo do nosso sistema é **indicar** a quantidade necessária para alimentar um gato de estimação, baseando-se na idade e no peso do animal. Para descontração, adicionamos um carrossel em que fica fixado as imagens da maioria das raças de gatos. 
 
