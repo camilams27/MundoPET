@@ -4,20 +4,10 @@
         flex-direction: column;
     }
 
-    .botoes{
-        margin-top: 5px;
-        width: 300px;
-        
-    }
-
-    .principal{
-        height: 100%;
-
-    }
 }
 
 @media screen and (min-width:1000px){
-    .descricao{
+    .texto{
         width: 50%;
     }
 }

@@ -18,182 +18,191 @@
 
     <title>Mundo PET</title>
 </head>
-<body>
-    <div class="banner"> <!-- Foto de capa -->
-        <h2> Boas-vindas ao Mundo PET</h2>
-        <h3> <i>seção dos gatos</i> </h3>
-        <p> Aplicação desenvolvida para informar a quantidade de ração devem ser colocada para os gatos diariamente. </p>
-    </div>
-   
-    <div id="bloco-filhote"> <!-- Aplicação filhote-->
-        <p>Para filhotes de gatos com a idade de <strong>até 12 meses</strong>, informe:</p>
-        <label> Idade em <strong>meses</strong> do pet:</label>
-        <input type="number" id="meses" placeholder="idade em meses do pet..."> <br>
-        <button class="btn-f" onclick="racao_filhote()"> Calcular </button>
-        <div id="resultado_f">
-            <br> <strong>resultado</strong>
+<div>
+    <div class="container">
+        <div class="banner"> <!-- Foto de capa -->
+            <h2> Boas-vindas ao Mundo PET</h2>
+            <h3> <i>seção dos gatos</i> </h3>
+            <p> Aplicação desenvolvida para informar a quantidade de ração devem ser colocada para os gatos diariamente. </p>
         </div>
-    </div>
+    
+        <div id="bloco-filhote"> <!-- Aplicação filhote-->
+            <p>Para filhotes de gatos com a idade de <strong>até 12 meses</strong>, informe:</p>
+            <label> Idade em <strong>meses</strong> do pet:</label>
+            <input type="number" id="meses" placeholder="idade em meses do pet..."> <br>
+            <button class="btn-f" onclick="racao_filhote()"> Calcular </button>
+            <div id="resultado_f">
+                <br> <strong>resultado</strong>
+            </div>
+        </div>
 
 
-    <div id="bloco-maior"> <!-- Aplicação gatos maiores -->
-        <p>Para gatos maiores com idade <strong>partir de 1 ano (12 meses)</strong> : </p> 
-        <label> Idade em <strong>ano(s)</strong> do pet: </label> 
-        <input type="number" id="ano" placeholder="idade em anos do pet..."> <br>
-        <label> Peso em <i>kg</i> do pet: </label> 
-        <input type="number" id="peso_m" placeholder="informe kg do pet..."><br>
-        <button class="btn-m" onclick="racao_maior()"> Calcular </button> 
-        <div id="resultado_m">
-        <br> <strong>resultado</strong>
+        <div id="bloco-maior"> <!-- Aplicação gatos maiores -->
+            <p>Para gatos maiores com idade <strong>partir de 1 ano (12 meses)</strong> : </p> 
+            <label> Idade em <strong>ano(s)</strong> do pet: </label> 
+            <input type="number" id="ano" placeholder="idade em anos do pet..."> <br>
+            <label> Peso em <i>kg</i> do pet: </label> 
+            <input type="number" id="peso_m" placeholder="informe kg do pet..."><br>
+            <button class="btn-m" onclick="racao_maior()"> Calcular </button> 
+            <div id="resultado_m">
+            <br> <strong>resultado</strong>
+            </div>
         </div>
     </div>
     
     <div class="texto">
-        <p> Em <strong> casos especiais</strong>, as indicações que passamos foram pensadas para gatos em condições normais de saúde.
+        <div class="intro"><p><strong><i> As indicações que passamos foram pensadas para gatos em condições normais de saúde.</i></strong> 
         </p><br>
-            <!--<p> Há casos com algumas condições precisam de um cuidado mais delicado na hora de montar a refeição. De acordo com a veterinária, os fatores abaixo podem influenciar e muito a quantidade de ração para gato:
-                <ul>Estágio de vida: adulto, filhote ou idoso;</ul>
-                <ul>Gravidez: tanto gestante quanto lactante; </ul>
-                <ul>Condição corporal: se  o pet está acima ou abaixo do peso;</ul>
-                <ul>Condições de saúde: se o pet está saudável ou doente.</ul>
+            -------------------------------------------------------------------------------------------------------
+            <p> Há casos com algumas condições precisam de um cuidado mais delicado na hora de montar a refeição. De acordo com a veterinária, os fatores abaixo podem influenciar e muito a quantidade de ração para gato:
+                <ul><strong>Estágio de vida:</strong> adulto, filhote ou idoso;</ul>
+                <ul><strong>Gravidez:</strong> tanto gestante quanto lactante; </ul>
+                <ul><strong>Condição corporal:</strong> se  o pet está acima ou abaixo do peso;</ul>
+                <ul><strong>Condições de saúde:</strong> se o pet está saudável ou doente.</ul>
 
             Por isso, se você acha que seu amigo é um caso especial e precisa de cuidados específicos, busque ajuda de um veterinário. O especialista poderá receitar a quantidade ideal para seu filho de quatro patas. 
-            “Nesses casos, existem fórmulas específicas para calcular as calorias diárias. Os veterinários saberão realizar essas contas”, comenta a especialista. </p>
-
-        <p> E os petiscos?
+            <i>“Nesses casos, existem fórmulas específicas para calcular as calorias diárias. Os veterinários saberão realizar essas contas”</i>, comenta a especialista. </p>
+            -------------------------------------------------------------------------------------------------------
+            <br>
+        </div>
+        <div class="intro-2"><p> <strong>E quanto aos petiscos?</strong> <br>
             Quem tem um bichano em casa sabe como os bigodudos adoram um bom petisco! Mas será que os agrados podem ser oferecidos com frequência? A Dra. Luiza explica que, se seu amigo está em condições normais de saúde, não há problemas em oferecer petiscos todos os dias. 
             
             Como são elaborados por especialistas, esses produtos contém valores nutricionais adequados para a dieta dos bichanos. Quanto à quantidade, tudo vai depender do tamanho e do peso do seu amigo. 
             
-            O importante é conhecer a personalidade do peludo e criar uma rotina saudável. Por fim, a veterinária dá uma dica: dividir um petisco em pequenos pedaços, servindo várias porções ao longo do dia!</p>
-        -->
+            O importante é conhecer a personalidade do peludo e criar uma rotina saudável. Por fim, a veterinária dá uma dica: <strong> um petisco em pequenos pedaços, servindo várias porções ao longo do dia!</strong></p>
+            -------------------------------------------------------------------------------------------------------
+            <br>
         <p> Não existe melhor ração para gatos,se você está buscando uma receita para preparar o prato perfeito para seu bichano, fique de olho! 
             Quando o assunto é alimentação dos pets, não existe fórmula universal. Tudo vai depender da marca de ração escolhida. 
             E a melhor ração para gato é justamente aquela que possui mais nutrientes, elas concentram mais vitaminas em porções menores. Por isso, os bichanos acabam comendo menos e, mesmo assim, obtêm a mesma quantidade de energia! </p>
-    <br>
-        <p> A rolagem abaixo mostra cada espécie de gatos, as principais 58. Ao clicar será redirecionado para mais informações. </p>
+        </div>  
+        -------------------------------------------------------------------------------------------------------  
+        <br>
+        <div class="raca"><p><strong> A rolagem abaixo mostra cada espécie de gatos, as principais 58. Ao clicar será redirecionado para mais informações.</strong> </p>
 
         </div>
+    </div>
 
-    <div class="categorias"> <!-- implementação do carrossel-->
-        <div class="carrosel">
-            <div class="owl-carousel owl-theme">
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-caracat.html" target="_blank"><img class="box-film" src="img/gato1.jpg"></a>
+    <div class="carrossel--"> <!-- implementação do carrossel-->
+            <div class="owl-carousel">
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-caracat.html" target="_blank"><img class="box-film" src="img/gato1.jpg" alt="Gato Caracat"></a>
                 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/maine-coon.html" target="_blank"><img class="box-film" src="img/gato2.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/maine-coon.html" target="_blank"><img class="box-film" src="img/gato2.jpg" alt="Gato Maine Coon"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-khao-manee.html" target="_blank"><img class="box-film" src="img/gato3.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-khao-manee.html" target="_blank"><img class="box-film" src="img/gato3.jpg" alt="Gato Khao Manee"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-bobtail-americano.html" target="_blank"><img class="box-film" src="img/gato4.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-bobtail-americano.html" target="_blank"><img class="box-film" src="img/gato4.jpg" alt="Gato Bobtail Americano"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-singapura.html" target="_blank"><img class="box-film" src="img/gato5.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-singapura.html" target="_blank"><img class="box-film" src="img/gato5.jpg" alt="Gato Singapura"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-cymric.html" target="_blank"><img class="box-film" src="img/gato6.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-cymric.html" target="_blank"><img class="box-film" src="img/gato6.jpg" alt="Gato Cymric"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-skookum.html" target="_blank"><img class="box-film" src="img/gato7.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-skookum.html" target="_blank"><img class="box-film" src="img/gato7.jpg" alt="Gato Skookum"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-bobtail-japones.html" target="_blank"><img class="box-film" src="img/gato8.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-bobtail-japones.html" target="_blank"><img class="box-film" src="img/gato8.jpg" alt="Gato Bobtail Japonês"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-toyger.html" target="_blank"><img class="box-film" src="img/gato9.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-toyger.html" target="_blank"><img class="box-film" src="img/gato9.jpg" alt="Gato Toyger"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-american-wirehair.html" target="_blank"><img class="box-film" src="img/gato11.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-american-wirehair.html" target="_blank"><img class="box-film" src="img/gato11.jpg" alt="Gato American Wirehair"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/burmilla.html" target="_blank"><img class="box-film" src="img/gato12.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/burmilla.html" target="_blank"><img class="box-film" src="img/gato12.jpg" alt="Gato Burmilla"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/pixie-bob.html" target="_blank"><img class="box-film" src="img/gato13.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/pixie-bob.html" target="_blank"><img class="box-film" src="img/gato13.jpg" alt="Gato Pixie-Bob"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-american-curl.html" target="_blank"><img class="box-film" src="img/gato14.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-american-curl.html" target="_blank"><img class="box-film" src="img/gato14.jpg" alt="Gato American Curl"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-laperm.html" target="_blank"><img class="box-film" src="img/gato15.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-laperm.html" target="_blank"><img class="box-film" src="img/gato15.jpg" alt="Gato Laperm"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-tonquines.html" target="_blank"><img class="box-film" src="img/gato16.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-tonquines.html" target="_blank"><img class="box-film" src="img/gato16.jpg" alt="Gato Toquines"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-javanes.html" target="_blank"><img class="box-film" src="img/gato17.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-javanes.html" target="_blank"><img class="box-film" src="img/gato17.jpg" alt="Gato Javanes"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-somali.html" target="_blank"><img class="box-film" src="img/gato18.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-somali.html" target="_blank"><img class="box-film" src="img/gato18.jpg" alt="Gato Somali"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-chausie.html" target="_blank"><img class="box-film" src="img/gato19.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-chausie.html" target="_blank"><img class="box-film" src="img/gato19.jpg" alt="Gato Chausie"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-birmanes.html" target="_blank"><img class="box-film" src="img/gato20.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-birmanes.html" target="_blank"><img class="box-film" src="img/gato20.jpg" alt="Gato Birmanes"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-sagrado-da-birmania.html" target="_blank"><img class="box-film" src="img/gato21.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-sagrado-da-birmania.html" target="_blank"><img class="box-film" src="img/gato21.jpg" alt="Gato Sagrado da Birmania"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-sokoke.html" target="_blank"><img class="box-film" src="img/gato22.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-sokoke.html" target="_blank"><img class="box-film" src="img/gato22.jpg" alt="Gato Sokoke"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-devon-rex.html" target="_blank"><img class="box-film" src="img/gato23.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-devon-rex.html" target="_blank"><img class="box-film" src="img/gato23.jpg" alt="Gato Devon Rex"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/turkish-van.html" target="_blank"><img class="box-film" src="img/gato24.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/turkish-van.html" target="_blank"><img class="box-film" src="img/gato24.jpg" alt="Gato Turkish Van"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-korat.html" target="_blank"><img class="box-film" src="img/gato25.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-korat.html" target="_blank"><img class="box-film" src="img/gato25.jpg" alt="Gato Korat"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-savannah.html" target="_blank"><img class="box-film" src="img/gato26.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-savannah.html" target="_blank"><img class="box-film" src="img/gato26.jpg" alt="Gato Savannah"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/oriental-shorthair.html" target="_blank"><img class="box-film" src="img/gato27.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/oriental-shorthair.html" target="_blank"><img class="box-film" src="img/gato27.jpg" alt="Gato Shorthair"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-chartreux.html" target="_blank"><img class="box-film" src="img/gato28.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-chartreux.html" target="_blank"><img class="box-film" src="img/gato28.jpg" alt="Gato Chartreux"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-selkirk-rex.html" target="_blank"><img class="box-film" src="img/gato29.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-selkirk-rex.html" target="_blank"><img class="box-film" src="img/gato29.jpg" alt="Gato Selkirk Rex"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-nebelung.html" target="_blank"><img class="box-film" src="img/gato30.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-nebelung.html" target="_blank"><img class="box-film" src="img/gato30.jpg" alt="Gato Nebelung"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-cornish-rex.html" target="_blank"><img class="box-film" src="img/gato31.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-cornish-rex.html" target="_blank"><img class="box-film" src="img/gato31.jpg" alt="Gato Cornish Rex"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-ocicat.html" target="_blank"><img class="box-film" src="img/gato32.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-ocicat.html" target="_blank"><img class="box-film" src="img/gato32.jpg" alt="Gato Ocicat"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-peterbald.html" target="_blank"><img class="box-film" src="img/gato33.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-peterbald.html" target="_blank"><img class="box-film" src="img/gato33.jpg" alt="Gato Peterbald"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-selvagem.html" target="_blank"><img class="box-film" src="img/gato34.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-selvagem.html" target="_blank"><img class="box-film" src="img/gato34.jpg" alt="Gato Selvagem"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-exotico-de-pelo-curto.html" target="_blank"><img class="box-film" src="img/gato35.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-exotico-de-pelo-curto.html" target="_blank"><img class="box-film" src="img/gato35.jpg" alt="Gato Exotico de pelo curto"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-azul-russo.html" target="_blank"><img class="box-film" src="img/gato36.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-azul-russo.html" target="_blank"><img class="box-film" src="img/gato36.jpg" alt="Gato Azul Russo"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-scottish-fold.html" target="_blank"><img class="box-film" src="img/gato37.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-scottish-fold.html" target="_blank"><img class="box-film" src="img/gato37.jpg" alt="Gato Scottish Fold"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-snowshoe.html" target="_blank"><img class="box-film" src="img/gato38.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-snowshoe.html" target="_blank"><img class="box-film" src="img/gato38.jpg" alt="Gato Snowshoe"></a>
                 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-manx.html" target="_blank"><img class="box-film" src="img/gato39.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-manx.html" target="_blank"><img class="box-film" src="img/gato39.jpg" alt="Gato Manx"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/noruegues-da-floresta.html" target="_blank"><img class="box-film" src="img/gato40.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-angora-turco.html" target="_blank"><img class="box-film" src="img/gato40.jpg" alt="Gato Angora Turco"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-siberiano.html" target="_blank"><img class="box-film" src="img/gato41.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-bombaim.html" target="_blank"><img class="box-film" src="img/gato41.jpg" alt="Gato Bombaim"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/bengal.html" target="_blank"><img class="box-film" src="img/gato42.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/noruegues-da-floresta.html" target="_blank"><img class="box-film" src="img/gato42.jpg" alt="Gato Noruegues da Floresta"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/siames.html" target="_blank"><img class="box-film" src="img/gato43.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/gato-siberiano.html" target="_blank"><img class="box-film" src="img/gato43.jpg" alt="Gato Siberiano"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/ashera.html" target="_blank"><img class="box-film" src="img/gato44.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/bengal.html" target="_blank"><img class="box-film" src="img/gato44.jpg" alt="Gato Bengal"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/lykoi-ou-gato-lobo.html" target="_blank"><img class="box-film" src="img/gato45.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/siames.html" target="_blank"><img class="box-film" src="img/gato45.jpg" alt="Gato Siames"></a>
                 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/munchkin.html" target="_blank"><img class="box-film" src="img/gato46.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/ashera.html" target="_blank"><img class="box-film" src="img/gato46.jpg" alt="Gato Ashera"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/sphynx.html" target="_blank"><img class="box-film" src="img/gato47.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/lykoi-ou-gato-lobo.html" target="_blank"><img class="box-film" src="img/gato47.jpg" alt="Gato Lykoi/ Gato-Lobo"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/mau-egipcio.html" target="_blank"><img class="box-film" src="img/gato48.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/munchkin.html" target="_blank"><img class="box-film" src="img/gato48.jpg" alt="Gato Munchkin"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/himalaio.html" target="_blank"><img class="box-film" src="img/gato49.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/sphynx.html" target="_blank"><img class="box-film" src="img/gato49.jpg" alt="Gato Sphynx"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/havana.html" target="_blank"><img class="box-film" src="img/gato50.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/mau-egipcio.html" target="_blank"><img class="box-film" src="img/gato50.jpg" alt="Gato Mau Egipcio"></a>
                 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/europeu.html" target="_blank"><img class="box-film" src="img/gato51.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/himalaio.html" target="_blank"><img class="box-film" src="img/gato51.jpg" alt="Gato Himalaio"></a>
                 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/balines.html" target="_blank"><img class="box-film" src="img/gato52.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/havana.html" target="_blank"><img class="box-film" src="img/gato52.jpg" alt="Gato Havana"></a>
                 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/mist-australiano.html" target="_blank"><img class="box-film" src="img/gato53.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/europeu.html" target="_blank"><img class="box-film" src="img/gato53.jpg" alt="Gato Europeu"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/abissinio.html" target="_blank"><img class="box-film" src="img/gato54.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/balines.html" target="_blank"><img class="box-film" src="img/gato54.jpg" alt="Gato Balines"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/persa.html" target="_blank"><img class="box-film" src="img/gato55.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/mist-australiano.html" target="_blank"><img class="box-film" src="img/gato55.jpg" alt="Gato Mist Australiano"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/persa.html" target="_blank"><img class="box-film" src="img/gato56.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/abissinio.html" target="_blank"><img class="box-film" src="img/gato56.jpg" alt="Gato Abissinio"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/ragdoll.html" target="_blank"><img class="box-film" src="img/gato57.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/persa.html" target="_blank"><img class="box-film" src="img/gato59.jpg" alt="Gato Persa"></a>
 
-                <a href="https://www.peritoanimal.com.br/racas-de-gatos/british-shorthair.html" target="_blank"><img class="box-film" src="img/gato58.jpg"></a>
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/ragdoll.html" target="_blank"><img class="box-film" src="img/gato57.jpg" alt="Gato Ragdoll"></a>
+
+                <a href="https://www.peritoanimal.com.br/racas-de-gatos/british-shorthair.html" target="_blank"><img class="box-film" src="img/gato58.jpg" alt="Gato British Shorthair"></a>
 
             </div>       
-        </div>
     </div>
    
     <!-- Carrossel-->
