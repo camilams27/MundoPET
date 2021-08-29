@@ -17,3 +17,4 @@ O conteúdo é voltado para informar as quantidades de rações diárias, dar di
 ### Front End
 - HTML
 - CSS
+- JavaScript
