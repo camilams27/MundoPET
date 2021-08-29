@@ -7,7 +7,7 @@ function racao_filhote(){
     var meses_v = document.getElementById('meses').value;
     var resultado_f_v = document.getElementById('resultado_f');
 
-    //passando o valor para um número inteiro
+    //passando o valor para um número inteiro\
     var meses_v = parseInt(meses_v);
 
     if (2<=meses_v && meses_v<=3){
@@ -39,16 +39,16 @@ function racao_maior(){
     ano_v = parseInt(ano_v)
     peso_m_v = parseInt(peso_m_v)
 
-    if((1<=ano_v && ano_v<=3) && (3<=peso_m_v && peso_m_v<=4)){
+    if((1<=ano_v && ano_v<=3) || (3<=peso_m_v && peso_m_v<=4)){
         resultado_m_v.innerHTML = "Seu pet é um jovem adulto. O indicado é 40 à 55 gramas por dia."
  
-    }else if((3<ano_v && ano_v<7) && (5<=peso_m_v && peso_m_v<=6)){
+    }else if((3<ano_v && ano_v<7) || (5<=peso_m_v && peso_m_v<=6)){
         resultado_m_v.innerHTML = "Seu pet é um adulto. O indicado é 55 à 75 gramas por dia."
 
-    }else if((7<ano_v) && (3<=peso_m_v && peso_m_v<=4)){
+    }else if((7<ano_v) || (3<=peso_m_v && peso_m_v<=4)){
         resultado_m_v.innerHTML = "Seu pet é um idoso. O indicado é 45 à 60 gramas por dia."
 
-    }else if((7<ano_v) && (5<=peso_m_v && peso_m_v<=6)){
+    }else if((7<ano_v) || (5<=peso_m_v && peso_m_v<=6)){
         resultado_m_v.innerHTML = "Seu pet é um idoso. O indicado é 60 à 75 gramas por dia."
 
     }else{
